@@ -1,0 +1,89 @@
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes rotate__dot {
+    0% {
+        transform: rotateZ(0);
+    }
+    50% {
+        transform: rotateZ(180deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+@keyframes scalling__square {
+    0% {
+        transform: scale(1);
+    }
+    33% {
+        transform: scale(1, 2);
+    }
+    66% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+#mother {
+    height: 700px;
+    width: 700px;
+    background-color: turquoise;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#circulater {
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: rotate__dot 2s ease-in-out infinite;
+}
+.dot-dot {
+    height: 5px;
+    width: 5px;
+    border: 3px white solid;
+    border-radius: 50%;
+    background-color: white;
+}
+#scale__square {
+    height: 100px;
+    width: 80px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.square {
+    height: 60px;
+    width: 10px;
+    background-color: white;
+}
+#square__1 {
+    animation: scalling__square 1s ease-in-out infinite;
+}
+#square__2 {
+    animation: scalling__square 1s ease-in-out infinite;
+    animation-delay: 0.1s;
+}
+#square__3 {
+    animation: scalling__square 1s ease-in-out infinite;
+    animation-delay: 0.2s;
+}
+#square__4 {
+    animation: scalling__square 1s ease-in-out infinite;
+    animation-delay: 0.3s;
+}
+#square__5 {
+    animation: scalling__square 1s ease-in-out infinite;
+    animation-delay: 0.4s;
+}
