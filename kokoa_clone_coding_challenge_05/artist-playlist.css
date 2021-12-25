@@ -1,0 +1,133 @@
+.artist-playlist {
+    position: relative;
+}
+
+.header-bar {
+    margin: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artist-playlist__artist__photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.artist-playlist__artist__photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px rgba(202, 112, 73, 0.6);
+}
+
+.artist-playlist__artist__name-category {
+    text-align: center;
+    margin: 40px 0px;
+}
+.artist-playlist__artist__category {
+    margin: 15px 0px;
+}
+.artist-playlist__artist__btns {
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 20px 10px;
+}
+.shuffle-btn {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.fa-heart {
+    margin-right: 5px;
+}
+.playlist__songs i {
+    color: rgba(0, 0, 0, 0.5);
+    margin-right: 30px;
+}
+
+
+.play-now {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.playlist {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.playlist__songs {
+    width: 420px;
+    height: 90px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.playlist__song-info {
+    display: flex;
+}
+.playlist__song-info__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.playlist__song-info__album-art {
+    width: 60px;
+    height: 60px;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+.playlist__song-info__song {
+    color: black;
+    font-weight: 600;
+}
+
+.play-consol {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+}
+
+.play-consol__bottom-consol {
+    width: 450px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play-consol__title {
+    margin-left: 30px;
+}
+.play-consol__title__artist {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 5px 0px;
+}
+.play-consol__title__song {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 5px 0px;
+}
+.play-consol__btns {
+    width: 180px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}

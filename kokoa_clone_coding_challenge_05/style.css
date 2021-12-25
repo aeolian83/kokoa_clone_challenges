@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700;800&display=swap');
+@import "reset.css";
+@import "artist-playlist.css";
+@import "player.css";
+
+body {
+    font-family: 'Baloo 2', cursive;
+    background-color: #f2f2f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+main {
+    width: 500px;
+    height: 1100px;
+    background-color: white;
+    margin: 10px 40px;
+    border-radius: 30px;
+}
